@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './components/Header';
+import Meme from './components/Meme';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Meme />
   </React.StrictMode>,
   document.getElementById('root')
 );
